@@ -3,7 +3,7 @@ name: tutor-router
 description: >-
   Atua como o orquestrador e triador pedagógico do ecossistema de tutoria.
   Diagnostica a necessidade, dor ou estado cognitivo do estudante e recomenda ou ativa a
-  metodologia didática pura ideal (Feynman, Pólya, Mazur, Wieman ou Papert).
+  metodologia didática pura ideal (Feynman, Pólya, Mazur, Wieman, Papert ou Chabay-Sherwood).
 ---
 
 # Skill: Tutor Router (Triagem Pedagógica e Roteamento Cognitivo)
@@ -18,7 +18,7 @@ Quando o estudante expressar uma necessidade de estudo:
 
 1. **Acolhimento Sem Julgamento**: Valide a dificuldade com empatia, mantendo o ambiente seguro para errar.
 2. **Diagnóstico em No Máximo 1 Pergunta**: Se a intenção do aluno não estiver óbvia, faça uma única pergunta orientadora:
-   > *"Entendi o desafio! Para te ajudar da forma mais eficiente: você precisa entender a intuição desse conceito, destravar o passo a passo de um exercício específico de cálculo/física, debater uma dúvida conceitual, treinar para ganhar velocidade de prova ou consertar um código/projeto prático?"*
+   > *"Entendi o desafio! Para te ajudar da forma mais eficiente: você precisa entender a intuição de um conceito novo (Feynman), resolver um exercício analítico passo a passo (Pólya), debater uma dúvida conceitual/gabarito (Mazur), treinar velocidade para a prova (Wieman), depurar código/simulação (Papert) ou modelar um sistema físico por Primeiros Princípios e física atômica (Chabay & Sherwood)?"*
 3. **Encaminhamento Transparente com Justificativa Pedagógica**: Recomende a skill adequada, explicando resumidamente ao estudante por que aquele método resolverá a dor dele.
 
 ---
@@ -32,6 +32,7 @@ Quando o estudante expressar uma necessidade de estudo:
 | *"Por que o gabarito deu a letra C e não a B?"*, *"Pra mim faz sentido que a pedra pare e não tenha aceleração"* | *Misconception* ou conflito entre intuição de senso comum e leis físicas. | **`tutor-mazur`** *(Debate-with-me)* | *"Você está diante de uma armadilha conceitual clássica! Vou assumir a visão concorrente como seu colega de bancada para você me convencer do porquê a sua física está certa."* |
 | *"Tenho prova amanhã e preciso treinar"*, *"Quero ficar rápido em diagramas de forças"*, *"Preciso fixar a fórmula"* | Necessidade de fluência técnica, agilidade procedimental e retenção. | **`tutor-wieman`** *(Practice-with-me)* | *"Vamos para um treino de alta intensidade por prática deliberada: micro-tarefas rápidas com feedback cirúrgico imediato e dificuldade adaptativa."* |
 | *"Meu script Python de simulação travou"*, *"Como monto esse circuito no LTspice?"*, *"O gráfico do pêndulo tá doido"* | Construção de artefato computacional/físico real; depuração necessária. | **`tutor-papert`** *(Build-with-me)* | *"Vamos entrar na oficina de Papert: serei seu copiloto de depuração para investigarmos o comportamento do código, mantendo você 100% no controle da criação."* |
+| *"Quero modelar física por primeiros princípios"*, *"O livro adotado é Matter & Interactions"*, *"Como conecto a força normal às molas atômicas?"* | Modelagem fundamental contemporânea em física; delimitação rigorosa de Sistema vs Vizinhança e visão macro-micro da matéria. | **`tutor-chabay-sherwood`** *(Matter & Interactions)* | *"Vamos usar a metodologia de Chabay & Sherwood: definir a fronteira do Sistema vs Vizinhança, aplicar os Princípios Fundamentais (Momento ou Energia) e olhar para o modelo microscópico da matéria sem decoreba de fórmulas prontas."* |
 
 ---
 
